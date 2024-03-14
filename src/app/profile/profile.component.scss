@@ -1,12 +1,11 @@
 .container,
 img {
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .profilephoto {
   object-fit: cover;
   height: 300px;
-  // width: 300px;
 }
 
 .header {
