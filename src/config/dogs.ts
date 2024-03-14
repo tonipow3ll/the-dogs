@@ -9,8 +9,9 @@ export const dogs = [
     likes: "warm blankets, sun bathing, snuggling, being chased",
     dislikes: "being picked up, cold weather",
     image: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_8156+2.jpg',
-    profileImage: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_8156+2.jpg',
+    profileImage: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_5544.JPG',
     permanentResident: true,
+    feeding: "1 cup AM and PM"
   },
   {
     name: "Jack Bauer",
@@ -23,7 +24,8 @@ export const dogs = [
     image: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_1868.jpg',
     profileImage: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_0978.jpg',
     permanentResident: true,
-    quote: "Ball is Life"
+    quote: "Ball is Life",
+    feeding: "1.5 cups AM and PM"
   },
   {
     name: "Boston",
@@ -36,7 +38,8 @@ export const dogs = [
     image: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_1834.jpg',
     profileImage: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_2659.jpg',
     permanentResident: true,
-    quote: "Hi, I'm Boston"
+    quote: "Hi, I'm Boston",
+    feeding: "1 scoop AM and PM"
     
   },
 ]
