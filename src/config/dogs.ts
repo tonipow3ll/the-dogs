@@ -5,13 +5,12 @@ export const dogs = [
     breed: "Basset Hound",
     bio: "Bonnie is a 10 year old basset hound. She has hiked many mountains in her younger years, and these days prefers to lounge around on the couch, in a nice sun spot near the heater, or outside on the deck in her older age. She absolutely adores her brothers Jack, and Boston. But Jack is her absolute best friend in the world",
     profile: "Bonnie is a true blooded basset hound. If you let her wander, she will follow her nose. She is trained to stay within bounds of the house with Petsafe's 'Invisible Fence' collar. We do ask that you keep an eye on her while she is outside. She is very stubborn, and sometimes has to be coaxed inside with a treat (usually holding up a milkbone and calling her will get do the trick). Bonnie likes to be let out first thing in the morning, a few times during the day (she will scratch at the door to let you know she needs to go out), and right before bedtime.",
-    // quote: 'Not all who wander are lost, but I am',
+    quote: 'Not all who wander are lost, but I am',
     likes: "warm blankets, sun bathing, snuggling, being chased",
     dislikes: "being picked up, cold weather",
     image: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_8156+2.jpg',
     profileImage: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_8156+2.jpg',
     permanentResident: true,
-    quote: "No touch, only pet"
   },
   {
     name: "Jack Bauer",
@@ -37,7 +36,7 @@ export const dogs = [
     image: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_1834.jpg',
     profileImage: 'https://tpowell-0324-dogs.s3.amazonaws.com/IMG_2659.jpg',
     permanentResident: true,
-    quote: "Hi, i'm Boston"
+    quote: "Hi, I'm Boston"
     
   },
 ]
