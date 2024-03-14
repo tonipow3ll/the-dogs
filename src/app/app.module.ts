@@ -8,6 +8,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { DogCardsComponent } from './dog-cards/dog-cards.component';
 import { MatCardModule } from '@angular/material/card';
 import { ProfileComponent } from './profile/profile.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatListModule } from '@angular/material/list';
+import {MatIconModule} from '@angular/material/icon';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +23,8 @@ import { ProfileComponent } from './profile/profile.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

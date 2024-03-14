@@ -1,20 +1,33 @@
-<div class="center" >
-  <p [routerLink]="['/']">Back</p>
+<div class="center">
   <ng-container *ngFor="let dog of currentDog;">
-    <div class="container">
-      <div class="header">
-
-        <img [src]="dog.profileImage" alt="dog photo" loading="lazy" class="profilephoto" />
-
-      </div>
-      <h1>{{dog.name}}</h1>
-      <sub>{{dog.quote}}</sub>
-      <p>Likes:</p>
-      <p> {{dog.likes}}</p>
-      <p>Dislikes:</p>
-      <p> {{dog.dislikes}}</p>
-      <p>About:</p>
-      <p>{{dog.profile}}</p>
-    </div>
+    <mat-card class="container">
+      <mat-card-header>
+        <mat-button [routerLink]="['/']">
+          <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_back_ios"></mat-icon>
+        </mat-button>
+        <mat-card-title-group>
+          <mat-card-title>
+            <h1> {{dog.name}}</h1>
+          </mat-card-title>
+          <!-- <mat-card-subtitle>"{{dog.quote}}"</mat-card-subtitle> -->
+          <mat-card-subtitle>
+            Likes:
+            {{dog.likes}}
+          </mat-card-subtitle>
+          <mat-card-subtitle>
+            Dislikes:
+            {{dog.dislikes}}
+          </mat-card-subtitle>
+          <img mat-card-xl-image [src]="dog.profileImage">
+        </mat-card-title-group>
+      </mat-card-header>
+      <mat-card-content>
+        <h3>About:</h3>
+        {{dog.profile}}
+        
+        <h3>Feeding Schedule:</h3>
+        {{dog.feeding}}
+      </mat-card-content>
+    </mat-card>
   </ng-container>
 </div>
