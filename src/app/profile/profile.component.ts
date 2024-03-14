@@ -14,9 +14,6 @@ export class ProfileComponent implements OnInit{
   public currentDog: any = null;
 
   ngOnInit(): void {
-    // this.id = this.route.snapshot.paramMap.get('id');
-    console.log(this.id)
     this.currentDog = dogs.filter(({ age }) => age === this.id);
-
   }
 }
