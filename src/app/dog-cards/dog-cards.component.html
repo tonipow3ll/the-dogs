@@ -2,8 +2,8 @@
   <div class="center">
     <mat-card class="card">
       <mat-card-header [routerLink]="['/profile/', dog.age]">
-        <div mat-card-avatar class="example-header-image">
-          <img class="example-header-image" [src]="dog.image" loading="lazy" />
+        <div mat-card-avatar class="avatar">
+          <img class="avatar" [src]="dog.image" loading="lazy" />
         </div>
         <mat-card-title class="title-text">{{dog.name}}</mat-card-title>
         <mat-card-subtitle>{{dog.breed}}</mat-card-subtitle>
